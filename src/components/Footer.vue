@@ -16,7 +16,7 @@ export default {
   footer {
     display: flex;
     width: 100%;
-    background-color: var(--middle-blue-green);
+    background-color: var(--gunmetal);
     color: #fff;
     padding: 2em 1em 2em 1em;
     justify-content: center;

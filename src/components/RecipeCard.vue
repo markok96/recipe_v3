@@ -40,10 +40,10 @@ export default {
     border-radius: 15px;
   }
   .card:nth-child(even) {
-    background-color: var(--orange-yellow-crayola);
+    background-color: var(--cultured);
   }
   .card:nth-child(odd) {
-    background-color: var(--middle-blue-green);
+    background-color: var(--orange-yellow-crayola);
   }
   .card h1,h2,h3,h4,a,p,i {
     color: black;

@@ -58,7 +58,7 @@ export default {
   .title {
     display: flex;
     flex-wrap: wrap;
-    background: var(--middle-blue-green);
+    background: var(--gunmetal);
     margin-bottom: 1em;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,6 @@ export default {
     width: 100%;
     padding: 2em 0;
     margin-bottom: 2em;
-    border-radius: 0 0 15px 15px;
   }
   .home-wrapper {
     display: flex;
@@ -86,7 +85,7 @@ export default {
   .home-wrapper > div > h1 {
     position: relative;
     padding: 1.3em 0;
-    background: var(--space-cadet);
+    background: var(--gunmetal);
     margin-top: 0;
     color: #fff;
     text-transform: uppercase;
@@ -102,7 +101,7 @@ export default {
     margin: 0 auto;
     width: 0;
     height: 0;
-    border-top: solid 15px var(--space-cadet);
+    border-top: solid 15px var(--gunmetal);
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
   }

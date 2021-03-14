@@ -7,7 +7,7 @@
         </div>
         <div class="content">
           <router-link to="/">
-            <i class="material-icons md-36 icon">arrow_back</i>
+            <i class="material-icons md-36 icon arrow">arrow_back</i>
           </router-link>
           <h2>{{ recipe.dishTypes[0] }}</h2>
           <ul class="recipe-stats">
@@ -72,7 +72,7 @@ export default {
   .title {
     display: flex;
     flex-wrap: wrap;
-    background: var(--middle-blue-green);
+    background: var(--gunmetal);
     margin-bottom: 1em;
     align-items: center;
     justify-content: center;
@@ -89,7 +89,7 @@ export default {
     grid-template-columns: 1fr 1fr;
     align-items: flex-start;
     justify-content: center;
-    background-color: var(--floral-white);
+    background-color: var(--cultured);
   }
   /* .md-card-header {
     display: grid;
@@ -99,14 +99,18 @@ export default {
   } */
   .img {
     width: 300px;
-    background-color: var(--floral-white);
+    background-color: var(--cultured);
   }
   .img img {
     border-radius: 15px;
   }
   .content {
     margin: 0.5em 1em .5em 1em;
-  } 
+  }
+
+  .content .arrow {
+    color: black;
+  }
 
   .recipe-stats {
     display: flex;
